@@ -1,0 +1,29 @@
+{
+  "name": "book-search",
+  "version": "1.0.0",
+  "description": "MERN book search site built with react",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.12.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanJamis/book-search.git"
+  },
+  "author": "Nathan Walsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NathanJamis/book-search/issues"
+  },
+  "homepage": "https://github.com/NathanJamis/book-search#readme"
+}
