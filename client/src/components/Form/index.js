@@ -4,7 +4,7 @@ function Form({ search, handleInputChange, handleFormSubmit }) {
     return (
         <form>
             <div className="form-row">
-                <div className="col-md-9">
+                <div className="col-md-11">
                     <input
                         name="search"
                         list="book"
@@ -15,8 +15,8 @@ function Form({ search, handleInputChange, handleFormSubmit }) {
                         id="book"
                     />
                 </div>
-                <div className="col-md-3">
-                    <button className="btn btn-light btn-sm form-control" type="submit" onClick={handleFormSubmit}>
+                <div className="col-md-1">
+                    <button className="btn btn-secondary form-control" type="submit" onClick={handleFormSubmit}>
                         Search
         </button>
                 </div>

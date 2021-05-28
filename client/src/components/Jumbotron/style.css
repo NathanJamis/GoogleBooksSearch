@@ -1,0 +1,4 @@
+.jumbotron {
+    background-image: url("../../utils/assets/books-header-1.jpg");
+    text-shadow: 0 0 20px black, 0 0 20px black;
+}

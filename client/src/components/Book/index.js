@@ -1,7 +1,6 @@
 import React from "react";
 import { ListItem } from "../List";
 import { Row, Col } from "../Grid";
-import "./style.css";
 
 function Book({ title, authors, link, description, image, Button }) {
     return (
@@ -11,9 +10,9 @@ function Book({ title, authors, link, description, image, Button }) {
                     <h3 className="font-italic">{title}</h3>
                 </Col>
                 <Col size="md-4">
-                    <div className="btn-container">
-                        <a className="btn btn-light" target="_blank" rel="noopener noreferrer" href={link}>
-                            View
+                    <div className="btn-container float-right">
+                        <a className="btn btn-secondary" target="_blank" rel="noopener noreferrer" href={link}>
+                            View on Play store
                         </a>
                         <Button />
                     </div>
