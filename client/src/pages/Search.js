@@ -6,7 +6,6 @@ import Card from "../components/Card";
 import Book from "../components/Book";
 import { List } from "../components/List";
 import Form from "../components/Form";
-
 import API from "../utils/API";
 
 class Search extends Component {
@@ -75,7 +74,7 @@ class Search extends Component {
                                         title={book.volumeInfo.title}
                                         authors={book.volumeInfo.authors.join(", ")}
                                         description={book.volumeInfo.description}
-                                        image={book.volumeInfo.imageLinks.thumbnail}
+                                        image={book.volumeInfo.imageLinks?.thumbnail}
                                         link={book.volumeInfo.infoLink}
                                         Button={() => (
                                             <button className="btn btn-success ml-1"
