@@ -13,7 +13,13 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/book-search");
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks";
+
+mongoose.connect(MONGODB_URI, {
+  useUnifiedTopology: true,
+  useNewUrlParser: true
+});
+
 
 app.listen(PORT, function() {
   console.log(`Connected to the grid. Port: ${PORT}. End of line.`);
