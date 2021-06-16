@@ -1,10 +1,10 @@
-# GoogleBooks Search
+# GoogleBooks Search 📚
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-green)](License.md)
 
 ## Description
 
-A MERN website utilizing the GoogleBooks API to search for and save books. Books are saved to a Mongo database for review or purchase later.
+A MERN (Mongo, Express, React, and Node) website utilizing the GoogleBooks API to search for and save books. Books are saved to a Mongo database for review or purchase later.
 
 ---
 
